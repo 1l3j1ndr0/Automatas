@@ -5,7 +5,7 @@ using namespace std;
 string revisar(string s) {
 	bool tieneNumero = false, tieneLetras = false;
 
-	for (int i = 0; i < s.length(); i++) {  // Uso de índices en lugar de range-based for
+	for (int i = 0; i < s.length(); i++) {  
 		char c = s[i];
 		if (isdigit(c)) {
 			tieneNumero = true;
@@ -25,7 +25,7 @@ string revisar(string s) {
 	if (tieneLetras) {
 		return "Palabra";
 	}
-	return "Cadena vacía o no reconocida";
+	return "Cadena vacÃ­a o no reconocida";
 }
 
 int main() {
