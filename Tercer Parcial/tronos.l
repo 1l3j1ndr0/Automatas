@@ -41,27 +41,27 @@
 
 
 %}
-A[¡Aa·]
+A[√ÅAa√°]
 B[Bb]
 C[Cc]
 D[Dd]
-E[EeÈ…]
+E[Ee√©√â]
 F[Ff]
 G[Gg]
 H[Hh]
-I[IiÌÕ]
+I[Ii√≠√ç]
 J[Jj]
 K[Kk]
 L[Ll]
 M[Mm]
 N[Nn]
-O[OoÛ”]
+O[Oo√≥√ì]
 P[Pp]
 Q[Qq]
 R[Rr]
 S[Ss]
 T[Tt]
-U[Uu˙⁄]
+U[Uu√∫√ö]
 V[Vv]
 W[Ww]
 X[Xx]
@@ -107,7 +107,7 @@ int main()
 	}
 
 	yyin = archivo;  // Asigna el archivo de entrada
-	yylex();         // Llama al analizador lÈxico
+	yylex();         // Llama al analizador l√©xico
 	fclose(archivo);
 
 
@@ -115,11 +115,11 @@ int main()
 	printf("Recuento de veces encontradas ( Invernalia ): %d\n", cont_invernalia);
 	printf("Recuento de veces encontradas ( Desembarco del Rey ): %d\n", cont_desembarco_rey);
 	printf("Recuento de veces encontradas ( Nido del aguila ): %d\n", cont_nido_aguilas);
-	printf("Recuento de veces encontradas ( AltojarÌn ): %d\n", cont_altojardin);
+	printf("Recuento de veces encontradas ( Altojar√≠n ): %d\n", cont_altojardin);
 	printf("Recuento de veces encontradas ( Aguasdulces ): %d\n", cont_aguasdulces);
 	printf("Recuento de veces encontradas ( Roca Dragon ): %d\n", cont_rocadragon);
 	printf("Recuento de veces encontradas ( Roca casterly ): %d\n", cont_rocacasterly);
-	printf("Recuento de veces encontradas ( BastiÛn de Tormentas ): %d\n", cont_bastion_tormentas);
+	printf("Recuento de veces encontradas ( Basti√≥n de Tormentas ): %d\n", cont_bastion_tormentas);
 	printf("Recuento de veces encontradas ( Dorne ): %d\n", cont_dorne);
 	
 	
