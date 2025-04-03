@@ -2,7 +2,7 @@
 %{
     #include <stdio.h>
 
-    int cont = 1;  // Contador de lÌneas
+    int cont = 1;  // Contador de l√≠neas
     int contP = 1;	//Contar palabras
     int contC = 1;	//Contar caracteres
 %}
@@ -10,7 +10,7 @@
 %%
 
 \n+ { cont++; }  // Lineas
-[a-zA-Z·ÈÌÛ˙¡…Õ”⁄¸‹Ò—0-9'-]+ {contP++;}	// Palabras
+[a-zA-Z√°√©√≠√≥√∫√Å√â√ç√ì√ö√º√ú√±√ë0-9'-]+ {contP++;}	// Palabras
 . {contC++;}	//Caracteres incluido los espacios
 
 %%
@@ -27,7 +27,7 @@ int main() {
     }
 
     yyin = archivo;  // Asigna el archivo de entrada
-    yylex();         // Llama al analizador lÈxico
+    yylex();         // Llama al analizador l√©xico
     fclose(archivo);
 
     printf("\nCantidad total de lineas: %d\n", cont);
