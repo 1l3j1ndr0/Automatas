@@ -1,0 +1,13 @@
+Ejemplos Correctos
+
+1) 1+1
+2) 20/10
+3) 40+10
+4) 50+100
+
+Ejemplos tipo Sintax error
+
+1) 0/0
+2) 123.123.1 * .12
+3) j1 + 2
+4) 0+0/1
